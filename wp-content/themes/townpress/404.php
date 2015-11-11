@@ -10,7 +10,7 @@
 		<!-- PAGE CONTENT : begin -->
 		<div id="page-content">
 			<div class="error-404-page">
-				<?php echo wpautop( do_shortcode( lsvr_get_field( 'page404_content', __( 'The page you are looking for is no longer available or has been moved.', 'lsvrtheme' ) ) ) ); ?>
+				<?php echo wpautop( do_shortcode( lsvr_get_field( 'page404_content', __( 'La p&aacute;gina que est&aacute;s buscando ya no está disponible o se ha movido', 'lsvrtheme' ) ) ) ); ?>
 			</div>
 		</div>
 		<!-- PAGE CONTENT : end -->

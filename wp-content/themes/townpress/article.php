@@ -49,7 +49,7 @@ if ( is_single() ) : ?>
 							<?php endforeach; ?>
 							<?php if ( $categories_html !== '' ) : ?>
 								<?php $categories_html = rtrim( $categories_html, ', ' ); ?>
-								<?php echo sprintf( '%s in %s', get_the_date(), $categories_html ); ?>
+								<?php echo sprintf( '%s en %s', get_the_date(), $categories_html ); ?>
 							<?php else: ?>
 								<?php echo get_the_date(); ?>
 							<?php endif; ?>
@@ -201,7 +201,7 @@ else : ?>
 							<?php endforeach; ?>
 							<?php if ( $categories_html !== '' ) : ?>
 								<?php $categories_html = rtrim( $categories_html, ', ' ); ?>
-								<?php echo sprintf( '%s in %s', '<a href="' . get_permalink() . '" class="article-date-permalink">' . get_the_date() . '</a>', $categories_html ); ?>
+								<?php echo sprintf( '%s en %s', '<a href="' . get_permalink() . '" class="article-date-permalink">' . get_the_date() . '</a>', $categories_html ); ?>
 							<?php else: ?>
 								<?php echo '<a href="' . get_permalink() . '" class="article-date-permalink">' . get_the_date() . '</a>'; ?>
 							<?php endif; ?>

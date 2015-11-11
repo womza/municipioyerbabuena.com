@@ -75,7 +75,7 @@
 												<?php endforeach; ?>
 												<?php if ( $categories_html !== '' ) : ?>
 													<?php $categories_html = rtrim( $categories_html, ', ' ); ?>
-													<?php echo sprintf( '%s in %s', get_the_date(), $categories_html ); ?>
+													<?php echo sprintf( '%s en %s', get_the_date(), $categories_html ); ?>
 												<?php else: ?>
 													<?php echo get_the_date(); ?>
 												<?php endif; ?>
@@ -111,7 +111,7 @@
 											<?php $thumb_data = lsvr_get_image_data( get_post_thumbnail_id( $prev_post->ID ) ); ?>
 											<div class="nav-thumb"><a href="<?php echo get_permalink( $prev_post->ID ); ?>"><img src="<?php echo $thumb_data['thumbnail']; ?>" alt=""></a></div>
 										<?php endif; ?>
-										<h5><?php _e( 'Newer Gallery', 'lsvrtheme' ); ?></h5>
+										<h5><?php _e( 'Nueva Gallery', 'lsvrtheme' ); ?></h5>
 										<a href="<?php echo get_permalink( $prev_post->ID ); ?>"><?php echo $prev_post->post_title; ?></a>
 									</div>
 								</li>
@@ -127,7 +127,7 @@
 											<?php $thumb_data = lsvr_get_image_data( get_post_thumbnail_id( $next_post->ID ) ); ?>
 											<div class="nav-thumb"><a href="<?php echo get_permalink( $next_post->ID ); ?>"><img src="<?php echo $thumb_data['thumbnail']; ?>" alt=""></a></div>
 										<?php endif; ?>
-										<h5><?php _e( 'Older Gallery', 'lsvrtheme' ); ?></h5>
+										<h5><?php _e( 'Antigua Gallery', 'lsvrtheme' ); ?></h5>
 										<a href="<?php echo get_permalink( $next_post->ID ); ?>"><?php echo $next_post->post_title; ?></a>
 									</div>
 								</li>

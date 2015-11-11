@@ -116,7 +116,8 @@ function wpcf7_messages() {
 			'description'
 				=> __( "Sender's message was sent successfully", 'contact-form-7' ),
 			'default'
-				=> __( 'Your message was sent successfully. Thanks.', 'contact-form-7' )
+				=> __( 'Su mensaje fue enviado exitosamente. Gracias.', 'contact-form-7' )
+//				=> __( 'Your message was sent successfully. Thanks.', 'contact-form-7' )
 		),
 
 		'mail_sent_ng' => array(
@@ -130,7 +131,8 @@ function wpcf7_messages() {
 			'description'
 				=> __( "Validation errors occurred", 'contact-form-7' ),
 			'default'
-				=> __( 'Validation errors occurred. Please confirm the fields and submit it again.', 'contact-form-7' )
+				=> __( 'Se produjeron errores de validación. Por favor, confirme los campos y enviarlo de nuevo.', 'contact-form-7' )
+				//=> __( 'Validation errors occurred. Please confirm the fields and submit it again.', 'contact-form-7' )
 		),
 
 		'spam' => array(
@@ -151,7 +153,8 @@ function wpcf7_messages() {
 			'description'
 				=> __( "There is a field that the sender must fill in", 'contact-form-7' ),
 			'default'
-				=> __( 'Please fill in the required field.', 'contact-form-7' )
+				=> __( 'Por favor complete el campo requerido.', 'contact-form-7' )
+				//=> __( 'Please fill in the required field.', 'contact-form-7' )
 		),
 
 		'invalid_too_long' => array(

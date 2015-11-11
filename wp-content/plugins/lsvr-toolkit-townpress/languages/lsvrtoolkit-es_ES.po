@@ -1,0 +1,1562 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LSVR Toolkit\n"
+"POT-Creation-Date: 2015-08-19 10:45+0200\n"
+"PO-Revision-Date: 2015-11-10 23:38-0600\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: \n"
+"Language: es_ES\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../cpt/lsvr-document.php:23 ../widgets/documents.php:19
+msgid "Documents"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:24
+msgid "Document"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:25 ../cpt/lsvr-document.php:26
+#: ../cpt/lsvr-document.php:28
+msgid "Add New Document"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:27
+msgid "Edit Document"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:29
+msgid "View Document"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:30
+msgid "Search documents"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:31
+msgid "No documents found"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:32
+msgid "No documents found in trash"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:55 ../widgets/document-categories.php:19
+msgid "Document Categories"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:56 ../cpt/lsvr-event.php:53
+#: ../cpt/lsvr-gallery.php:56 ../cpt/lsvr-notice.php:56
+#: ../shortcodes/articles.php:71 ../vc-elements/articles.php:14
+msgid "Category"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:57 ../cpt/lsvr-event.php:54
+#: ../cpt/lsvr-gallery.php:57 ../cpt/lsvr-notice.php:57
+msgid "Search Categories"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:58 ../cpt/lsvr-event.php:55
+#: ../cpt/lsvr-gallery.php:58 ../cpt/lsvr-notice.php:58
+msgid "Popular Categories"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:59 ../cpt/lsvr-event.php:56
+#: ../cpt/lsvr-gallery.php:59 ../cpt/lsvr-notice.php:59
+msgid "All Categories"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:60 ../cpt/lsvr-event.php:57
+#: ../cpt/lsvr-gallery.php:60 ../cpt/lsvr-notice.php:60
+msgid "Parent Category"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:61 ../cpt/lsvr-event.php:58
+#: ../cpt/lsvr-gallery.php:61 ../cpt/lsvr-notice.php:61
+msgid "Parent Category:"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:62 ../cpt/lsvr-event.php:59
+#: ../cpt/lsvr-gallery.php:62 ../cpt/lsvr-notice.php:62
+msgid "Edit Category"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:63 ../cpt/lsvr-event.php:60
+#: ../cpt/lsvr-gallery.php:63 ../cpt/lsvr-notice.php:63
+msgid "Update Category"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:64 ../cpt/lsvr-event.php:61
+#: ../cpt/lsvr-gallery.php:64 ../cpt/lsvr-notice.php:64
+msgid "Add New Category"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:65 ../cpt/lsvr-event.php:62
+#: ../cpt/lsvr-gallery.php:65 ../cpt/lsvr-notice.php:65
+msgid "New Category Name"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:66 ../cpt/lsvr-event.php:63
+#: ../cpt/lsvr-gallery.php:66 ../cpt/lsvr-notice.php:66
+msgid "Separate categories with commas"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:67 ../cpt/lsvr-event.php:64
+#: ../cpt/lsvr-gallery.php:67 ../cpt/lsvr-notice.php:67
+msgid "Add or remove categories"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:68 ../cpt/lsvr-event.php:65
+#: ../cpt/lsvr-gallery.php:68 ../cpt/lsvr-notice.php:68
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: ../cpt/lsvr-document.php:69 ../cpt/lsvr-event.php:66
+#: ../cpt/lsvr-gallery.php:69 ../cpt/lsvr-notice.php:69
+msgid "Categories"
+msgstr ""
+
+#: ../cpt/lsvr-event.php:23 ../widgets/events.php:19
+msgid "Events"
+msgstr ""
+
+#: ../cpt/lsvr-event.php:24
+msgid "Event"
+msgstr ""
+
+#: ../cpt/lsvr-event.php:25 ../cpt/lsvr-event.php:26 ../cpt/lsvr-event.php:28
+msgid "Add New Event"
+msgstr ""
+
+#: ../cpt/lsvr-event.php:27
+msgid "Edit Event"
+msgstr ""
+
+#: ../cpt/lsvr-event.php:29
+msgid "View Event"
+msgstr ""
+
+#: ../cpt/lsvr-event.php:30
+msgid "Search events"
+msgstr ""
+
+#: ../cpt/lsvr-event.php:31
+msgid "No events found"
+msgstr ""
+
+#: ../cpt/lsvr-event.php:32
+msgid "No events found in trash"
+msgstr ""
+
+#: ../cpt/lsvr-event.php:52 ../widgets/event-categories.php:19
+msgid "Event Categories"
+msgstr ""
+
+#: ../cpt/lsvr-event.php:100 ../cpt/lsvr-gallery.php:103
+#: ../cpt/lsvr-notice.php:103 ../cpt/lsvr-slide.php:103 ../widgets/image.php:50
+msgid "Thumbnail"
+msgstr ""
+
+#: ../cpt/lsvr-event.php:101
+msgid "Event Date"
+msgstr ""
+
+#: ../cpt/lsvr-gallery.php:23 ../widgets/galleries.php:19
+msgid "Galleries"
+msgstr ""
+
+#: ../cpt/lsvr-gallery.php:24 ../shortcodes/gallery-cpt.php:37
+#: ../shortcodes/gallery.php:14 ../vc-elements/gallery-cpt.php:36
+#: ../vc-elements/gallery.php:6
+msgid "Gallery"
+msgstr ""
+
+#: ../cpt/lsvr-gallery.php:25 ../cpt/lsvr-gallery.php:26
+#: ../cpt/lsvr-gallery.php:28
+msgid "Add New Gallery"
+msgstr ""
+
+#: ../cpt/lsvr-gallery.php:27
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../cpt/lsvr-gallery.php:29
+msgid "View Gallery"
+msgstr ""
+
+#: ../cpt/lsvr-gallery.php:30
+msgid "Search galleries"
+msgstr ""
+
+#: ../cpt/lsvr-gallery.php:31
+msgid "No galleries found"
+msgstr ""
+
+#: ../cpt/lsvr-gallery.php:32
+msgid "No galleries found in trash"
+msgstr ""
+
+#: ../cpt/lsvr-gallery.php:55 ../widgets/gallery-categories.php:19
+msgid "Gallery Categories"
+msgstr ""
+
+#: ../cpt/lsvr-notice.php:23 ../widgets/notices.php:19
+msgid "Notices"
+msgstr ""
+
+#: ../cpt/lsvr-notice.php:24
+msgid "Notice"
+msgstr ""
+
+#: ../cpt/lsvr-notice.php:25 ../cpt/lsvr-notice.php:26
+#: ../cpt/lsvr-notice.php:28
+msgid "Add New Notice"
+msgstr ""
+
+#: ../cpt/lsvr-notice.php:27
+msgid "Edit Notice"
+msgstr ""
+
+#: ../cpt/lsvr-notice.php:29
+msgid "View Notice"
+msgstr ""
+
+#: ../cpt/lsvr-notice.php:30
+msgid "Search notices"
+msgstr ""
+
+#: ../cpt/lsvr-notice.php:31
+msgid "No notices found"
+msgstr ""
+
+#: ../cpt/lsvr-notice.php:32
+msgid "No notices found in trash"
+msgstr ""
+
+#: ../cpt/lsvr-notice.php:55 ../widgets/notice-categories.php:19
+msgid "Notice Categories"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:23
+msgid "Slides"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:24
+msgid "Slide"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:25 ../cpt/lsvr-slide.php:26 ../cpt/lsvr-slide.php:28
+msgid "Add New Slide"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:27
+msgid "Edit Slide"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:29
+msgid "View Slide"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:30
+msgid "Search slides"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:31
+msgid "No slides found"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:32
+msgid "No slides found in trash"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:55 ../cpt/lsvr-slide.php:69
+msgid "Sliders"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:56 ../shortcodes/slider.php:17
+#: ../shortcodes/slider.php:57 ../vc-elements/slider.php:6
+#: ../vc-elements/slider.php:15
+msgid "Slider"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:57
+msgid "Search Sliders"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:58
+msgid "Popular Sliders"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:59
+msgid "All Sliders"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:60
+msgid "Parent Slider"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:61
+msgid "Parent Slider:"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:62
+msgid "Edit Slider"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:63
+msgid "Update Slider"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:64
+msgid "Add New Slider"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:65
+msgid "New Slider Name"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:66
+msgid "Separate sliders with commas"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:67
+msgid "Add or remove sliders"
+msgstr ""
+
+#: ../cpt/lsvr-slide.php:68
+msgid "Choose from the most used sliders"
+msgstr ""
+
+#: ../lsvr-functions.php:54 ../lsvr-shortcode-generator.php:44
+msgid "Shortcode Generator"
+msgstr ""
+
+#: ../lsvr-functions.php:55 ../lsvr-shortcode-generator.php:46
+msgid "Add Shortcode"
+msgstr ""
+
+#: ../lsvr-shortcode-generator.php:45
+msgid "Choose shortcode from the list"
+msgstr ""
+
+#: ../lsvr-shortcode-generator.php:47
+msgid "Select Images"
+msgstr ""
+
+#: ../shortcodes/accordion.php:14 ../vc-elements/accordion.php:6
+msgid "Accordion"
+msgstr ""
+
+#: ../shortcodes/accordion.php:15
+msgid "Can contain several <strong>Accordion Item</strong> shortcodes."
+msgstr ""
+
+#: ../shortcodes/accordion.php:20 ../vc-elements/accordion.php:17
+msgid "Toggle"
+msgstr ""
+
+#: ../shortcodes/accordion.php:21 ../vc-elements/accordion.php:18
+msgid "This accordion will behave as a toggle if enabled."
+msgstr ""
+
+#: ../shortcodes/accordion.php:23 ../shortcodes/alert-message.php:26
+#: ../shortcodes/articles.php:41 ../shortcodes/gallery-cpt.php:57
+#: ../shortcodes/gallery.php:38 ../shortcodes/section.php:25
+#: ../shortcodes/section.php:32 ../vc-elements/accordion.php:69
+#: ../vc-elements/alert-message.php:28 ../vc-elements/alert-message.php:34
+#: ../vc-elements/articles.php:53 ../vc-elements/content-box.php:21
+#: ../vc-elements/cta.php:39 ../vc-elements/feature.php:34
+#: ../vc-elements/slider.php:41 ../vc-elements/tabs.php:51
+#: ../vc-elements/team-member.php:39
+msgid "Yes"
+msgstr ""
+
+#: ../shortcodes/accordion.php:23 ../shortcodes/alert-message.php:26
+#: ../shortcodes/articles.php:41 ../shortcodes/gallery-cpt.php:57
+#: ../shortcodes/gallery.php:38 ../shortcodes/section.php:25
+#: ../shortcodes/section.php:32
+msgid "No"
+msgstr ""
+
+#: ../shortcodes/accordion.php:27 ../shortcodes/alert-message.php:30
+#: ../shortcodes/articles.php:51 ../shortcodes/button.php:44
+#: ../shortcodes/content-box.php:19 ../shortcodes/counter.php:34
+#: ../shortcodes/cta.php:32 ../shortcodes/definition-list.php:20
+#: ../shortcodes/directory.php:54 ../shortcodes/feature.php:28
+#: ../shortcodes/gallery-cpt.php:67 ../shortcodes/gallery.php:48
+#: ../shortcodes/gmap.php:53 ../shortcodes/grid.php:20
+#: ../shortcodes/grid.php:107 ../shortcodes/icon.php:35
+#: ../shortcodes/lead.php:19 ../shortcodes/progress-bar.php:30
+#: ../shortcodes/section.php:37 ../shortcodes/separator.php:38
+#: ../shortcodes/slider.php:39 ../shortcodes/tabs.php:22
+#: ../shortcodes/team-member.php:37
+msgid "Custom Class"
+msgstr ""
+
+#: ../shortcodes/accordion.php:28 ../shortcodes/alert-message.php:31
+#: ../shortcodes/articles.php:52 ../shortcodes/button.php:45
+#: ../shortcodes/content-box.php:20 ../shortcodes/counter.php:35
+#: ../shortcodes/cta.php:33 ../shortcodes/definition-list.php:21
+#: ../shortcodes/directory.php:55 ../shortcodes/feature.php:29
+#: ../shortcodes/gallery-cpt.php:68 ../shortcodes/gallery.php:49
+#: ../shortcodes/gmap.php:54 ../shortcodes/grid.php:21
+#: ../shortcodes/grid.php:108 ../shortcodes/icon.php:36
+#: ../shortcodes/lead.php:20 ../shortcodes/progress-bar.php:31
+#: ../shortcodes/section.php:38 ../shortcodes/separator.php:39
+#: ../shortcodes/slider.php:40 ../shortcodes/tabs.php:23
+#: ../shortcodes/team-member.php:38 ../vc-elements/accordion.php:25
+#: ../vc-elements/alert-message.php:41 ../vc-elements/articles.php:66
+#: ../vc-elements/button.php:45 ../vc-elements/content-box.php:28
+#: ../vc-elements/counter.php:36 ../vc-elements/cta.php:46
+#: ../vc-elements/definition-list.php:19 ../vc-elements/directory.php:55
+#: ../vc-elements/feature.php:41 ../vc-elements/gallery-cpt.php:70
+#: ../vc-elements/gallery.php:47 ../vc-elements/gmap.php:54
+#: ../vc-elements/image.php:46 ../vc-elements/progress-bar.php:29
+#: ../vc-elements/separator.php:37 ../vc-elements/slider.php:48
+#: ../vc-elements/tabs.php:19 ../vc-elements/team-member.php:52
+msgid "It can be used for applying custom CSS."
+msgstr ""
+
+#: ../shortcodes/accordion.php:97 ../vc-elements/accordion.php:35
+msgid "Accordion Item"
+msgstr ""
+
+#: ../shortcodes/accordion.php:98
+msgid "Must be placed inside <strong>Accordion</strong> shortcode."
+msgstr ""
+
+#: ../shortcodes/accordion.php:103 ../shortcodes/articles.php:22
+#: ../shortcodes/counter.php:29 ../shortcodes/cta.php:19
+#: ../shortcodes/definition-list.php:89 ../shortcodes/directory.php:31
+#: ../shortcodes/feature.php:19 ../shortcodes/progress-bar.php:19
+#: ../shortcodes/section.php:19 ../shortcodes/tabs.php:109
+#: ../vc-elements/accordion.php:45 ../vc-elements/articles.php:34
+#: ../vc-elements/counter.php:28 ../vc-elements/cta.php:16
+#: ../vc-elements/definition-list.php:39 ../vc-elements/directory.php:28
+#: ../vc-elements/feature.php:22 ../vc-elements/progress-bar.php:16
+#: ../vc-elements/tabs.php:39
+msgid "Title"
+msgstr ""
+
+#: ../shortcodes/accordion.php:107 ../shortcodes/articles.php:27
+#: ../shortcodes/button.php:33 ../shortcodes/directory.php:36
+#: ../shortcodes/feature.php:23 ../shortcodes/icon.php:14
+#: ../shortcodes/icon.php:19 ../vc-elements/accordion.php:51
+#: ../vc-elements/articles.php:39 ../vc-elements/button.php:32
+#: ../vc-elements/directory.php:33 ../vc-elements/feature.php:16
+msgid "Icon"
+msgstr ""
+
+#: ../shortcodes/accordion.php:108 ../shortcodes/articles.php:28
+#: ../shortcodes/button.php:34 ../shortcodes/directory.php:37
+#: ../shortcodes/feature.php:24 ../shortcodes/icon.php:20
+#: ../vc-elements/accordion.php:52 ../vc-elements/articles.php:40
+#: ../vc-elements/button.php:33 ../vc-elements/directory.php:34
+#: ../vc-elements/feature.php:17
+msgid ""
+"Name of the icon (e.g. \"fa fa-heart\"). Please refer to the documentation "
+"to learn more about using the icons."
+msgstr ""
+
+#: ../shortcodes/accordion.php:112
+msgid "State"
+msgstr ""
+
+#: ../shortcodes/accordion.php:114
+msgid "Closed"
+msgstr ""
+
+#: ../shortcodes/accordion.php:114 ../vc-elements/image.php:40
+msgid "Open"
+msgstr ""
+
+#: ../shortcodes/alert-message.php:14 ../vc-elements/alert-message.php:6
+msgid "Alert Message"
+msgstr ""
+
+#: ../shortcodes/alert-message.php:19 ../shortcodes/separator.php:20
+#: ../vc-elements/alert-message.php:16 ../vc-elements/separator.php:16
+msgid "Type"
+msgstr ""
+
+#: ../shortcodes/alert-message.php:21 ../vc-elements/alert-message.php:17
+msgid "Warning"
+msgstr ""
+
+#: ../shortcodes/alert-message.php:21 ../vc-elements/alert-message.php:17
+msgid "Success"
+msgstr ""
+
+#: ../shortcodes/alert-message.php:21 ../vc-elements/alert-message.php:17
+msgid "Info"
+msgstr ""
+
+#: ../shortcodes/alert-message.php:21 ../vc-elements/alert-message.php:17
+msgid "Notification"
+msgstr ""
+
+#: ../shortcodes/alert-message.php:24 ../vc-elements/alert-message.php:27
+msgid "Closable"
+msgstr ""
+
+#: ../shortcodes/articles.php:16 ../vc-elements/articles.php:23
+msgid "Articles"
+msgstr ""
+
+#: ../shortcodes/articles.php:17
+msgid "Lists standard posts"
+msgstr ""
+
+#: ../shortcodes/articles.php:24
+msgid "Local <strong>News</strong>"
+msgstr ""
+
+#: ../shortcodes/articles.php:33
+msgid "Number of Posts"
+msgstr ""
+
+#: ../shortcodes/articles.php:39
+msgid "Highlight First Post"
+msgstr ""
+
+#: ../shortcodes/articles.php:45
+msgid "More Button Label"
+msgstr ""
+
+#: ../shortcodes/articles.php:46 ../vc-elements/articles.php:59
+msgid "Leave blank to hide More button."
+msgstr ""
+
+#: ../shortcodes/articles.php:48 ../vc-elements/articles.php:60
+msgid "Read All Posts"
+msgstr ""
+
+#: ../shortcodes/articles.php:64 ../shortcodes/separator.php:28
+#: ../shortcodes/separator.php:34 ../vc-elements/articles.php:7
+#: ../vc-elements/separator.php:23 ../vc-elements/separator.php:30
+msgid "None"
+msgstr ""
+
+#: ../shortcodes/articles.php:72 ../vc-elements/articles.php:15
+msgid ""
+"Category to load posts from. Choose <strong>None</strong> to load posts "
+"regardless of category."
+msgstr ""
+
+#: ../shortcodes/articles.php:222
+msgid "No posts"
+msgstr ""
+
+#: ../shortcodes/button.php:14 ../vc-elements/button.php:6
+msgid "Button"
+msgstr ""
+
+#: ../shortcodes/button.php:19 ../vc-elements/accordion.php:57
+#: ../vc-elements/alert-message.php:22 ../vc-elements/button.php:15
+#: ../vc-elements/content-box.php:15 ../vc-elements/cta.php:22
+#: ../vc-elements/feature.php:28 ../vc-elements/tabs.php:45
+#: ../vc-elements/team-member.php:33
+msgid "Text"
+msgstr ""
+
+#: ../shortcodes/button.php:23 ../vc-elements/button.php:21
+#: ../vc-elements/image.php:33
+msgid "Link"
+msgstr ""
+
+#: ../shortcodes/button.php:27
+msgid "Target"
+msgstr ""
+
+#: ../shortcodes/button.php:29 ../shortcodes/gmap.php:42
+#: ../shortcodes/separator.php:22 ../vc-elements/button.php:27
+#: ../vc-elements/separator.php:17
+msgid "Default"
+msgstr ""
+
+#: ../shortcodes/button.php:29 ../vc-elements/button.php:27
+msgid "New Tab"
+msgstr ""
+
+#: ../shortcodes/button.php:38 ../vc-elements/button.php:38
+msgid "Style"
+msgstr ""
+
+#: ../shortcodes/button.php:40 ../vc-elements/button.php:39
+msgid "Solid"
+msgstr ""
+
+#: ../shortcodes/button.php:40 ../vc-elements/button.php:39
+msgid "Outline"
+msgstr ""
+
+#: ../shortcodes/content-box.php:14 ../vc-elements/content-box.php:6
+msgid "Content Box"
+msgstr ""
+
+#: ../shortcodes/counter.php:14 ../vc-elements/counter.php:6
+msgid "Counter"
+msgstr ""
+
+#: ../shortcodes/counter.php:19 ../vc-elements/counter.php:16
+msgid "Counter Value"
+msgstr ""
+
+#: ../shortcodes/counter.php:20 ../vc-elements/counter.php:17
+msgid "Numeric value of counter."
+msgstr ""
+
+#: ../shortcodes/counter.php:24 ../vc-elements/counter.php:22
+msgid "Symbol After"
+msgstr ""
+
+#: ../shortcodes/counter.php:25 ../vc-elements/counter.php:23
+msgid "Symbol which will be displayed after numeric value. For example \"+\"."
+msgstr ""
+
+#: ../shortcodes/counter.php:30 ../vc-elements/counter.php:29
+msgid "This text will be displayed under Counter Value."
+msgstr ""
+
+#: ../shortcodes/cta.php:14
+msgid "CTA Message"
+msgstr ""
+
+#: ../shortcodes/cta.php:23 ../vc-elements/cta.php:27
+msgid "Button Label"
+msgstr ""
+
+#: ../shortcodes/cta.php:24 ../vc-elements/cta.php:28
+msgid "Leave blank to hide."
+msgstr ""
+
+#: ../shortcodes/cta.php:28 ../vc-elements/cta.php:33
+msgid "Button Link"
+msgstr ""
+
+#: ../shortcodes/definition-list.php:14 ../vc-elements/definition-list.php:6
+msgid "Definition List"
+msgstr ""
+
+#: ../shortcodes/definition-list.php:15
+msgid "Can contain several <strong>Definition Item</strong> shortcodes."
+msgstr ""
+
+#: ../shortcodes/definition-list.php:83 ../vc-elements/definition-list.php:29
+msgid "Definition List Item"
+msgstr ""
+
+#: ../shortcodes/definition-list.php:84
+msgid "Must be placed inside <strong>Definition List</strong> shortcode."
+msgstr ""
+
+#: ../shortcodes/definition-list.php:93 ../vc-elements/definition-list.php:45
+msgid "Value"
+msgstr ""
+
+#: ../shortcodes/definition-list.php:97 ../vc-elements/definition-list.php:50
+msgid "Value Link"
+msgstr ""
+
+#: ../shortcodes/directory.php:25 ../vc-elements/directory.php:18
+msgid "Directory"
+msgstr ""
+
+#: ../shortcodes/directory.php:26
+msgid ""
+"You will have to navigate to <strong>Appearance / Menus</strong> and create "
+"a menu first. Then select this menu below"
+msgstr ""
+
+#: ../shortcodes/directory.php:33
+msgid "Choose <strong>Your Interest</strong>"
+msgstr ""
+
+#: ../shortcodes/directory.php:42 ../vc-elements/directory.php:40
+msgid "Menu"
+msgstr ""
+
+#: ../shortcodes/directory.php:47 ../vc-elements/directory.php:48
+msgid "Columns"
+msgstr ""
+
+#: ../shortcodes/directory.php:48 ../vc-elements/directory.php:49
+msgid ""
+"Please note, that the number of columns displayed on page is affected by "
+"screen size."
+msgstr ""
+
+#: ../shortcodes/directory.php:117
+msgid "No menu assigned"
+msgstr ""
+
+#: ../shortcodes/feature.php:14 ../vc-elements/feature.php:6
+msgid "Feature"
+msgstr ""
+
+#: ../shortcodes/gallery-cpt.php:26 ../vc-elements/gallery-cpt.php:20
+msgid "Create your gallery under <strong>Galleries</strong> first"
+msgstr ""
+
+#: ../shortcodes/gallery-cpt.php:32 ../vc-elements/gallery-cpt.php:26
+msgid "Gallery (CPT)"
+msgstr ""
+
+#: ../shortcodes/gallery-cpt.php:38 ../vc-elements/gallery-cpt.php:37
+msgid "Galleries can be managed under <strong>Galleries</strong>."
+msgstr ""
+
+#: ../shortcodes/gallery-cpt.php:43 ../shortcodes/gallery.php:24
+msgid "Images Per Row"
+msgstr ""
+
+#: ../shortcodes/gallery-cpt.php:49 ../shortcodes/gallery.php:30
+msgid "Size of Images"
+msgstr ""
+
+#: ../shortcodes/gallery-cpt.php:50 ../shortcodes/gallery.php:31
+#: ../vc-elements/gallery-cpt.php:51 ../vc-elements/gallery.php:28
+#: ../vc-elements/image.php:22
+msgid ""
+"You can specify an image size which will be used, e.g. \"large\" or \"full"
+"\". Sizes can be defined under <strong>Settings / Media</strong>. Leave "
+"blank to use a \"medium\" size."
+msgstr ""
+
+#: ../shortcodes/gallery-cpt.php:55 ../shortcodes/gallery.php:36
+#: ../vc-elements/gallery-cpt.php:56 ../vc-elements/gallery.php:33
+msgid "Masonry Layout"
+msgstr ""
+
+#: ../shortcodes/gallery-cpt.php:61 ../shortcodes/gallery.php:42
+msgid "Click Action"
+msgstr ""
+
+#: ../shortcodes/gallery-cpt.php:63 ../shortcodes/gallery.php:44
+#: ../vc-elements/gallery-cpt.php:64 ../vc-elements/gallery.php:41
+msgid "Open in Lightbox"
+msgstr ""
+
+#: ../shortcodes/gallery-cpt.php:63 ../shortcodes/gallery.php:44
+#: ../vc-elements/gallery-cpt.php:64 ../vc-elements/gallery.php:41
+msgid "Open in new tab"
+msgstr ""
+
+#: ../shortcodes/gallery-cpt.php:63 ../shortcodes/gallery.php:44
+#: ../vc-elements/gallery-cpt.php:64 ../vc-elements/gallery.php:41
+msgid "No click action"
+msgstr ""
+
+#: ../shortcodes/gallery.php:19 ../vc-elements/gallery.php:16
+msgid "Images"
+msgstr ""
+
+#: ../shortcodes/gallery.php:20
+msgid "Hold CTRL/CMD key to select multiple images."
+msgstr ""
+
+#: ../shortcodes/gmap.php:14 ../vc-elements/gmap.php:6
+msgid "Google Map"
+msgstr ""
+
+#: ../shortcodes/gmap.php:15
+msgid ""
+"You can define either just <strong>Address</strong> field or "
+"<strong>Latitude</strong> and <strong>Longitude</strong> fields."
+msgstr ""
+
+#: ../shortcodes/gmap.php:20 ../vc-elements/gmap.php:15
+msgid "Address"
+msgstr ""
+
+#: ../shortcodes/gmap.php:21 ../vc-elements/gmap.php:16
+msgid "For example: <em>8833 Sunset Blvd, West Hollywood, CA 90069, USA</em>."
+msgstr ""
+
+#: ../shortcodes/gmap.php:25 ../vc-elements/gmap.php:22
+msgid "Latitude"
+msgstr ""
+
+#: ../shortcodes/gmap.php:26 ../vc-elements/gmap.php:23
+msgid ""
+"Optional, it can be more precise than using just the address. For example: "
+"<em>48.634340</em>."
+msgstr ""
+
+#: ../shortcodes/gmap.php:30 ../vc-elements/gmap.php:28
+msgid "Longitude"
+msgstr ""
+
+#: ../shortcodes/gmap.php:31 ../vc-elements/gmap.php:29
+msgid ""
+"Optional, it can be more precise than using just the address. For example: "
+"<em>21.929627</em>."
+msgstr ""
+
+#: ../shortcodes/gmap.php:35 ../vc-elements/gmap.php:34
+msgid "Map Type"
+msgstr ""
+
+#: ../shortcodes/gmap.php:36 ../vc-elements/gmap.php:35
+msgid "Roadmap"
+msgstr ""
+
+#: ../shortcodes/gmap.php:36 ../vc-elements/gmap.php:35
+msgid "Satellite"
+msgstr ""
+
+#: ../shortcodes/gmap.php:36 ../vc-elements/gmap.php:35
+msgid "Terrain"
+msgstr ""
+
+#: ../shortcodes/gmap.php:36 ../vc-elements/gmap.php:35
+msgid "Hybrid"
+msgstr ""
+
+#: ../shortcodes/gmap.php:41 ../vc-elements/gmap.php:40
+msgid "Zoom Level"
+msgstr ""
+
+#: ../shortcodes/gmap.php:42 ../vc-elements/gmap.php:41
+msgid "Far"
+msgstr ""
+
+#: ../shortcodes/gmap.php:42 ../shortcodes/separator.php:28
+#: ../shortcodes/separator.php:34 ../vc-elements/gmap.php:41
+#: ../vc-elements/separator.php:23 ../vc-elements/separator.php:30
+#: ../widgets/image.php:51
+msgid "Medium"
+msgstr ""
+
+#: ../shortcodes/gmap.php:42 ../vc-elements/gmap.php:41
+msgid "Very Close"
+msgstr ""
+
+#: ../shortcodes/gmap.php:47 ../shortcodes/slider.php:28
+#: ../vc-elements/gmap.php:47 ../vc-elements/slider.php:28
+msgid "Height"
+msgstr ""
+
+#: ../shortcodes/gmap.php:48 ../vc-elements/gmap.php:48
+msgid "In pixels."
+msgstr ""
+
+#: ../shortcodes/grid.php:14
+msgid "Grid Row"
+msgstr ""
+
+#: ../shortcodes/grid.php:83
+msgid "Grid Column"
+msgstr ""
+
+#: ../shortcodes/grid.php:84
+msgid ""
+"<strong>Grid Column</strong> must be used inside <strong>Grid Row</strong> "
+"shortcode."
+msgstr ""
+
+#: ../shortcodes/grid.php:90
+msgid "Size"
+msgstr ""
+
+#: ../shortcodes/grid.php:96
+msgid "Breakpoint"
+msgstr ""
+
+#: ../shortcodes/grid.php:98
+msgid "Do not collapse"
+msgstr ""
+
+#: ../shortcodes/grid.php:98
+msgid "Collapse under 768px"
+msgstr ""
+
+#: ../shortcodes/grid.php:98
+msgid "Collapse under 992px"
+msgstr ""
+
+#: ../shortcodes/grid.php:98
+msgid "Collapse under 1200px"
+msgstr ""
+
+#: ../shortcodes/grid.php:102
+msgid "Offset"
+msgstr ""
+
+#: ../shortcodes/icon.php:24
+msgid "Icon Size"
+msgstr ""
+
+#: ../shortcodes/icon.php:25
+msgid "Size of icon in pixels."
+msgstr ""
+
+#: ../shortcodes/icon.php:30
+msgid "Icon Color"
+msgstr ""
+
+#: ../shortcodes/icon.php:31
+msgid "For example \"#232323\"."
+msgstr ""
+
+#: ../shortcodes/lead.php:14
+msgid "Lead Paragraph"
+msgstr ""
+
+#: ../shortcodes/progress-bar.php:14 ../vc-elements/progress-bar.php:6
+msgid "Progress Bar"
+msgstr ""
+
+#: ../shortcodes/progress-bar.php:23 ../vc-elements/progress-bar.php:22
+msgid "Percentage"
+msgstr ""
+
+#: ../shortcodes/section.php:14
+msgid "Section"
+msgstr ""
+
+#: ../shortcodes/section.php:23
+msgid "Disable Top Margin"
+msgstr ""
+
+#: ../shortcodes/section.php:24
+msgid "Recommended for the first section on the page."
+msgstr ""
+
+#: ../shortcodes/section.php:30
+msgid "Wrap Content in Container"
+msgstr ""
+
+#: ../shortcodes/section.php:31
+msgid "Useful if you are using this element in full width template."
+msgstr ""
+
+#: ../shortcodes/section.php:42
+msgid "Custom ID"
+msgstr ""
+
+#: ../shortcodes/section.php:43
+msgid "It can be used for one page navigation."
+msgstr ""
+
+#: ../shortcodes/separator.php:14 ../vc-elements/separator.php:6
+msgid "Separator"
+msgstr ""
+
+#: ../shortcodes/separator.php:15 ../vc-elements/separator.php:7
+msgid "Horizontal separator line"
+msgstr ""
+
+#: ../shortcodes/separator.php:22 ../vc-elements/separator.php:17
+msgid "Transparent"
+msgstr ""
+
+#: ../shortcodes/separator.php:26 ../vc-elements/separator.php:22
+msgid "Top Margin"
+msgstr ""
+
+#: ../shortcodes/separator.php:28 ../shortcodes/separator.php:34
+#: ../vc-elements/separator.php:23 ../vc-elements/separator.php:30
+msgid "Small"
+msgstr ""
+
+#: ../shortcodes/separator.php:28 ../shortcodes/separator.php:34
+#: ../vc-elements/separator.php:23 ../vc-elements/separator.php:30
+#: ../widgets/image.php:52
+msgid "Large"
+msgstr ""
+
+#: ../shortcodes/separator.php:32 ../vc-elements/separator.php:29
+msgid "Bottom Margin"
+msgstr ""
+
+#: ../shortcodes/slider.php:18
+msgid "Basic slider. Slides can be managed under <strong>Slides</strong>."
+msgstr ""
+
+#: ../shortcodes/slider.php:23
+msgid "Background Image"
+msgstr ""
+
+#: ../shortcodes/slider.php:25 ../vc-elements/slider.php:23
+msgid ""
+"If you want to have a separate background image for each slide, leave this "
+"blank and set a Featured Image for each Slide post instead."
+msgstr ""
+
+#: ../shortcodes/slider.php:33 ../vc-elements/slider.php:34
+msgid "Autoplay Speed"
+msgstr ""
+
+#: ../shortcodes/slider.php:34 ../vc-elements/slider.php:35
+msgid ""
+"Duration between transitions in seconds. Leave blank to disable automatic "
+"slideshow."
+msgstr ""
+
+#: ../shortcodes/slider.php:51
+msgid "Show all slides"
+msgstr ""
+
+#: ../shortcodes/slider.php:58
+msgid ""
+"Which slider will be used. You can manage sliders under <strong>Slides / "
+"Sliders</strong>. Choose <strong>None</strong> to load all slides."
+msgstr ""
+
+#: ../shortcodes/tabs.php:16 ../vc-elements/tabs.php:6
+msgid "Tabs"
+msgstr ""
+
+#: ../shortcodes/tabs.php:17
+msgid ""
+"<strong>Tabs</strong> shortcode should contain multiple <strong>Tab Item</"
+"strong> shortcodes."
+msgstr ""
+
+#: ../shortcodes/tabs.php:103 ../vc-elements/tabs.php:29
+msgid "Tab Item"
+msgstr ""
+
+#: ../shortcodes/tabs.php:104
+msgid ""
+"<strong>Tab Item</strong> should be put inside <strong>Tabs</strong> "
+"shortcode."
+msgstr ""
+
+#: ../shortcodes/team-member.php:14 ../vc-elements/team-member.php:6
+msgid "Team Member"
+msgstr ""
+
+#: ../shortcodes/team-member.php:19 ../vc-elements/team-member.php:16
+msgid "Portrait"
+msgstr ""
+
+#: ../shortcodes/team-member.php:23 ../vc-elements/team-member.php:21
+msgid "Name"
+msgstr ""
+
+#: ../shortcodes/team-member.php:27 ../vc-elements/team-member.php:27
+msgid "Role"
+msgstr ""
+
+#: ../shortcodes/team-member.php:28 ../vc-elements/team-member.php:28
+msgid "Short text which will be shown under name (e.g. \"web designer\")."
+msgstr ""
+
+#: ../shortcodes/team-member.php:32 ../vc-elements/team-member.php:45
+msgid "Social Icons"
+msgstr ""
+
+#: ../shortcodes/team-member.php:33 ../vc-elements/team-member.php:46
+msgid ""
+"Use the following pattern for adding social icons: \"<strong>icon_class1,"
+"link1|icon_class2,link2</strong>\".<br>For example: \"<strong>fa fa-twitter,"
+"https://twitter.com/MyTwitterProfile|fa fa-facebook,https://www.facebook.com/"
+"MyTwitterProfile</strong>\"."
+msgstr ""
+
+#: ../vc-elements/accordion.php:5 ../vc-elements/alert-message.php:5
+#: ../vc-elements/articles.php:22 ../vc-elements/button.php:5
+#: ../vc-elements/content-box.php:5 ../vc-elements/counter.php:5
+#: ../vc-elements/cta.php:5 ../vc-elements/definition-list.php:5
+#: ../vc-elements/directory.php:17 ../vc-elements/feature.php:5
+#: ../vc-elements/gallery-cpt.php:25 ../vc-elements/gallery.php:5
+#: ../vc-elements/gmap.php:5 ../vc-elements/image.php:5
+#: ../vc-elements/progress-bar.php:5 ../vc-elements/separator.php:5
+#: ../vc-elements/slider.php:5 ../vc-elements/tabs.php:5
+#: ../vc-elements/team-member.php:5
+msgid "Theme Specific"
+msgstr ""
+
+#: ../vc-elements/accordion.php:19 ../vc-elements/accordion.php:63
+#: ../vc-elements/gallery-cpt.php:57 ../vc-elements/gallery.php:34
+msgid "Enable"
+msgstr ""
+
+#: ../vc-elements/accordion.php:24 ../vc-elements/alert-message.php:40
+#: ../vc-elements/articles.php:65 ../vc-elements/button.php:44
+#: ../vc-elements/content-box.php:27 ../vc-elements/counter.php:35
+#: ../vc-elements/cta.php:45 ../vc-elements/definition-list.php:18
+#: ../vc-elements/directory.php:54 ../vc-elements/feature.php:40
+#: ../vc-elements/gallery-cpt.php:69 ../vc-elements/gallery.php:46
+#: ../vc-elements/gmap.php:53 ../vc-elements/image.php:45
+#: ../vc-elements/progress-bar.php:28 ../vc-elements/separator.php:36
+#: ../vc-elements/slider.php:47 ../vc-elements/tabs.php:18
+#: ../vc-elements/team-member.php:51
+msgid "Extra class name"
+msgstr ""
+
+#: ../vc-elements/accordion.php:62
+msgid "Open by default"
+msgstr ""
+
+#: ../vc-elements/accordion.php:68 ../vc-elements/alert-message.php:33
+#: ../vc-elements/content-box.php:20 ../vc-elements/cta.php:38
+#: ../vc-elements/feature.php:33 ../vc-elements/tabs.php:50
+#: ../vc-elements/team-member.php:38
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: ../vc-elements/alert-message.php:7
+msgid "Notification box"
+msgstr ""
+
+#: ../vc-elements/articles.php:24
+msgid "List of latest posts"
+msgstr ""
+
+#: ../vc-elements/articles.php:47
+msgid "Number of posts"
+msgstr ""
+
+#: ../vc-elements/articles.php:52
+msgid "Highlight first post"
+msgstr ""
+
+#: ../vc-elements/articles.php:58
+msgid "More button label"
+msgstr ""
+
+#: ../vc-elements/button.php:26
+msgid "Link target"
+msgstr ""
+
+#: ../vc-elements/counter.php:7
+msgid "Number with label"
+msgstr ""
+
+#: ../vc-elements/cta.php:6
+msgid "CTA"
+msgstr ""
+
+#: ../vc-elements/cta.php:7
+msgid "Message with call to action button"
+msgstr ""
+
+#: ../vc-elements/definition-list.php:7
+msgid "List of titles and values"
+msgstr ""
+
+#: ../vc-elements/directory.php:19
+msgid "Displays menu"
+msgstr ""
+
+#: ../vc-elements/directory.php:41
+msgid ""
+"Create a menu under <strong>Appearance / Menus</strong> first. Then select "
+"this menu here"
+msgstr ""
+
+#: ../vc-elements/feature.php:7
+msgid "Text block with icon and title"
+msgstr ""
+
+#: ../vc-elements/gallery-cpt.php:27
+msgid "Pre-created gallery"
+msgstr ""
+
+#: ../vc-elements/gallery-cpt.php:43 ../vc-elements/gallery.php:21
+msgid "Images per row"
+msgstr ""
+
+#: ../vc-elements/gallery-cpt.php:50 ../vc-elements/gallery.php:27
+msgid "Size of images"
+msgstr ""
+
+#: ../vc-elements/gallery-cpt.php:63 ../vc-elements/gallery.php:40
+msgid "Click action"
+msgstr ""
+
+#: ../vc-elements/gallery.php:7
+msgid "Simple image gallery"
+msgstr ""
+
+#: ../vc-elements/gmap.php:41
+msgid "Close"
+msgstr ""
+
+#: ../vc-elements/image.php:6 ../vc-elements/image.php:16
+msgid "Image"
+msgstr ""
+
+#: ../vc-elements/image.php:7
+msgid "Single image"
+msgstr ""
+
+#: ../vc-elements/image.php:21
+msgid "Size of image"
+msgstr ""
+
+#: ../vc-elements/image.php:27
+msgid "Max width"
+msgstr ""
+
+#: ../vc-elements/image.php:28
+msgid ""
+"You can define maximum width (in pixels, e.g. \"100\") to restrict image "
+"dimensions."
+msgstr ""
+
+#: ../vc-elements/image.php:38
+msgid "Open in lightbox"
+msgstr ""
+
+#: ../vc-elements/image.php:39
+msgid "Open the full size of the image in lightbox."
+msgstr ""
+
+#: ../vc-elements/progress-bar.php:7
+msgid "Animated progress bar"
+msgstr ""
+
+#: ../vc-elements/slider.php:16
+msgid ""
+"Add a slider slug to load projects from. Sliders can be managed under "
+"<strong>Slides / Sliders</strong>. Leave blank to load slides regardless of "
+"category."
+msgstr ""
+
+#: ../vc-elements/slider.php:22
+msgid "Background image"
+msgstr ""
+
+#: ../vc-elements/slider.php:40
+msgid "Automatically create paragraphs in slides"
+msgstr ""
+
+#: ../vc-elements/tabs.php:7
+msgid "Tabbed content"
+msgstr ""
+
+#: ../vc-elements/team-member.php:7
+msgid "Text block with portrait and title"
+msgstr ""
+
+#: ../widgets/custom-code.php:12
+msgid "Put any code here"
+msgstr ""
+
+#: ../widgets/custom-code.php:13
+msgid "LSVR Custom Code"
+msgstr ""
+
+#: ../widgets/custom-code.php:25 ../widgets/definition-list.php:44
+#: ../widgets/document-categories.php:26 ../widgets/documents.php:31
+#: ../widgets/event-categories.php:26 ../widgets/events.php:30
+#: ../widgets/galleries.php:31 ../widgets/gallery-categories.php:26
+#: ../widgets/gallery-featured.php:28 ../widgets/image.php:32
+#: ../widgets/locale.php:26 ../widgets/mailchimp.php:26
+#: ../widgets/notice-categories.php:26 ../widgets/notices.php:30
+msgid "Title:"
+msgstr ""
+
+#: ../widgets/custom-code.php:29
+msgid "Content:"
+msgstr ""
+
+#: ../widgets/custom-code.php:32
+msgid "For example, you can insert an image here."
+msgstr ""
+
+#: ../widgets/definition-list.php:12
+msgid "Can be used for phone numbers"
+msgstr ""
+
+#: ../widgets/definition-list.php:13
+msgid "LSVR Definition List"
+msgstr ""
+
+#: ../widgets/definition-list.php:50 ../widgets/definition-list.php:54
+#: ../widgets/definition-list.php:58
+msgid "Row "
+msgstr ""
+
+#: ../widgets/definition-list.php:64 ../widgets/documents.php:66
+#: ../widgets/events.php:52 ../widgets/galleries.php:66
+#: ../widgets/gallery-featured.php:55 ../widgets/notices.php:60
+msgid "More Button Label:"
+msgstr ""
+
+#: ../widgets/definition-list.php:68
+msgid "More Button Link:"
+msgstr ""
+
+#: ../widgets/document-categories.php:13
+msgid "List document categories."
+msgstr ""
+
+#: ../widgets/document-categories.php:14
+msgid "LSVR Document Categories"
+msgstr ""
+
+#: ../widgets/document-categories.php:32 ../widgets/event-categories.php:32
+#: ../widgets/gallery-categories.php:32 ../widgets/notice-categories.php:32
+msgid "Show Count"
+msgstr ""
+
+#: ../widgets/documents.php:13
+msgid "List documents."
+msgstr ""
+
+#: ../widgets/documents.php:14
+msgid "LSVR Documents"
+msgstr ""
+
+#: ../widgets/documents.php:20
+msgid "See All Documents"
+msgstr ""
+
+#: ../widgets/documents.php:36 ../widgets/galleries.php:36
+#: ../widgets/notices.php:35
+msgid "Category:"
+msgstr ""
+
+#: ../widgets/documents.php:38 ../widgets/galleries.php:38
+#: ../widgets/notices.php:37
+msgid "None (list all)"
+msgstr ""
+
+#: ../widgets/documents.php:48 ../widgets/events.php:34
+#: ../widgets/galleries.php:48 ../widgets/notices.php:47
+msgid "Limit:"
+msgstr ""
+
+#: ../widgets/documents.php:57
+msgid "Show File Icon"
+msgstr ""
+
+#: ../widgets/documents.php:62
+msgid "Show File Size"
+msgstr ""
+
+#: ../widgets/documents.php:69 ../widgets/events.php:55
+#: ../widgets/galleries.php:69 ../widgets/notices.php:63
+msgid "Leave blank do disable more button."
+msgstr ""
+
+#: ../widgets/documents.php:230
+msgid "There are no documents at this time."
+msgstr ""
+
+#: ../widgets/event-categories.php:13
+msgid "List event categories."
+msgstr ""
+
+#: ../widgets/event-categories.php:14
+msgid "LSVR Event Categories"
+msgstr ""
+
+#: ../widgets/events.php:13
+msgid "List events."
+msgstr ""
+
+#: ../widgets/events.php:14
+msgid "LSVR Events"
+msgstr ""
+
+#: ../widgets/events.php:20
+msgid "See All Events"
+msgstr ""
+
+#: ../widgets/events.php:43 ../widgets/galleries.php:62
+msgid "Show Date"
+msgstr ""
+
+#: ../widgets/events.php:48 ../widgets/notices.php:56
+msgid "Show Excerpt"
+msgstr ""
+
+#: ../widgets/events.php:164
+msgid "There are no events at this time."
+msgstr "No hay eventos en este momento."
+
+#: ../widgets/galleries.php:13
+msgid "List galleries."
+msgstr ""
+
+#: ../widgets/galleries.php:14
+msgid "LSVR Galleries"
+msgstr ""
+
+#: ../widgets/galleries.php:20 ../widgets/gallery-featured.php:20
+msgid "See All Galleries"
+msgstr ""
+
+#: ../widgets/galleries.php:57
+msgid "Show Thumb"
+msgstr ""
+
+#: ../widgets/galleries.php:177
+msgid "There are no galleries at this time."
+msgstr ""
+
+#: ../widgets/gallery-categories.php:13
+msgid "List gallery categories."
+msgstr ""
+
+#: ../widgets/gallery-categories.php:14
+msgid "LSVR Gallery Categories"
+msgstr ""
+
+#: ../widgets/gallery-featured.php:13
+msgid "Display featured gallery."
+msgstr ""
+
+#: ../widgets/gallery-featured.php:14
+msgid "LSVR Featured Gallery"
+msgstr ""
+
+#: ../widgets/gallery-featured.php:19
+msgid "Featured Gallery"
+msgstr ""
+
+#: ../widgets/gallery-featured.php:42
+msgid "Gallery:"
+msgstr ""
+
+#: ../widgets/gallery-featured.php:44
+msgid "Most Recent"
+msgstr ""
+
+#: ../widgets/gallery-featured.php:58
+msgid "Link to all galleries. Leave blank do disable."
+msgstr ""
+
+#: ../widgets/image.php:12
+msgid "Simple image"
+msgstr ""
+
+#: ../widgets/image.php:13
+msgid "LSVR Image"
+msgstr ""
+
+#: ../widgets/image.php:36
+msgid "Image:"
+msgstr ""
+
+#: ../widgets/image.php:45
+msgid "Upload Image"
+msgstr ""
+
+#: ../widgets/image.php:48
+msgid "Image Size:"
+msgstr ""
+
+#: ../widgets/image.php:53
+msgid "Full Size"
+msgstr ""
+
+#: ../widgets/image.php:56
+msgid "Link:"
+msgstr ""
+
+#: ../widgets/locale.php:13
+msgid "Local weather, time, etc."
+msgstr ""
+
+#: ../widgets/locale.php:14
+msgid "LSVR Locale Info"
+msgstr ""
+
+#: ../widgets/locale.php:19
+msgid "Locale Info"
+msgstr ""
+
+#: ../widgets/locale.php:24
+msgid ""
+"Locale settings can be set under <strong>Theme Options / Locale</strong>."
+msgstr ""
+
+#: ../widgets/locale.php:63
+msgid "Local Time"
+msgstr "Tiempo Local"
+
+#: ../widgets/locale.php:85
+msgid "Today"
+msgstr ""
+
+#: ../widgets/locale.php:97 ../widgets/locale.php:125
+msgid "Temperature"
+msgstr ""
+
+#: ../widgets/locale.php:98 ../widgets/locale.php:126
+msgid "Wind speed"
+msgstr ""
+
+#: ../widgets/mailchimp.php:12
+msgid "Basic Mailchimp subscribe form"
+msgstr ""
+
+#: ../widgets/mailchimp.php:13
+msgid "LSVR Mailchimp Subscribe"
+msgstr ""
+
+#: ../widgets/mailchimp.php:18
+msgid "Join Our Newsletter"
+msgstr ""
+
+#: ../widgets/mailchimp.php:30
+msgid "Description:"
+msgstr ""
+
+#: ../widgets/mailchimp.php:34
+msgid "Mailchimp Link:"
+msgstr ""
+
+#: ../widgets/mailchimp.php:37
+msgid "Please refer to the documentation on how to obtain a correct link."
+msgstr ""
+
+#: ../widgets/mailchimp.php:76
+msgid "Your email address is required."
+msgstr "Su E-mail es requerido"
+
+#: ../widgets/mailchimp.php:81
+msgid "There was a connection problem. Try again later."
+msgstr ""
+
+#: ../widgets/mailchimp.php:86
+msgid "<strong>Form sent successfully!</strong>"
+msgstr ""
+
+#: ../widgets/mailchimp.php:90
+msgid "Your Email Address"
+msgstr "E-mail"
+
+#: ../widgets/mailchimp.php:91
+msgid "Subscribe"
+msgstr ""
+
+#: ../widgets/notice-categories.php:13
+msgid "List notice categories."
+msgstr ""
+
+#: ../widgets/notice-categories.php:14
+msgid "LSVR Notice Categories"
+msgstr ""
+
+#: ../widgets/notices.php:13
+msgid "List notices."
+msgstr ""
+
+#: ../widgets/notices.php:14
+msgid "LSVR Notices"
+msgstr ""
+
+#: ../widgets/notices.php:20
+msgid "See All Notices"
+msgstr ""
+
+#: ../widgets/notices.php:154
+msgid "There are no notices at this time."
+msgstr ""
