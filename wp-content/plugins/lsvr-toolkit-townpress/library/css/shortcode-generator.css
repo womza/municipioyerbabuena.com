@@ -1,0 +1,68 @@
+.lsvr-shorcode-generator-button i { position: relative; margin-right: 6px; font-size: 14px; color: #888888; }
+#wp-excerpt-wrap .lsvr-shorcode-generator-button { display: none; }
+
+.lsvr-locked-scrolling { overflow-y: hidden; }
+.lsvr-modal-overlay { display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #000; z-index: 110000;
+    opacity: .7; filter: alpha(opacity=70); }
+
+/* modal general */
+.lsvr-modal { position: fixed; left: 50%; margin: auto; z-index: 110010; font-size: 14px; color: #656e77; }
+.lsvr-modal-inner { position: relative; margin: auto; background: #FFF; }
+.lsvr-sg-modal { top: 100px; width: 500px; margin-left: -250px; }
+.lsvr-modal-title { position: relative; padding: 0 25px 0 25px; height: 70px; line-height: 70px; font-size: 1.8em; color: #FFF; background-color: #26292c; }
+.lsvr-modal-title strong { font-weight: normal; }
+.lsvr-modal-title .lsvr-close { position: absolute; font-size: 22px; top: 25px; right: 25px; cursor: pointer; }
+
+/* content */
+.lsvr-modal-list-container { padding: 25px; border-bottom: 1px solid #dee8eb; }
+.lsvr-sg-shortcode-description { padding: 25px 25px 0 25px; }
+.lsvr-sg-shortcode-description p { margin: 0; font-size: 1.1em; line-height: 1.5em; }
+.lsvr-sg-form-row { margin-top: 30px; padding: 0 25px; }
+.lsvr-sg-form-row p.lsvr-description { margin: 6px 0 0 0; line-height: 1.5em; font-style: italic; font-size: 0.9em; color: #909090; }
+.lsvr-sg-shortcode-form { padding-bottom: 10px; height: 300px; overflow-y: scroll; overflow-x: auto;
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.lsvr-modal-content label { display: block; font-weight: bold; color: #000; }
+
+/* field types */
+.lsvr-modal-content .lsvr-textinput,
+.lsvr-modal-content .lsvr-textarea,
+.lsvr-modal-content .lsvr-selectbox {  margin: 10px 0 0 0; padding: 8px 14px; width: 100%; height: auto; font-size: 13px;
+    color: #272e3c; background-color: #f0f3f4; border: 0;
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.lsvr-modal-content .lsvr-icon-selectbox  { font-family: FontAwesome, 'Open Sans', 'Arial', sans-serif; line-height: 1em; }
+.lsvr-modal-content .lsvr-textarea,
+.lsvr-modal-content .lsvr-textarea:focus,
+.lsvr-modal-content .lsvr-textinput,
+.lsvr-modal-content .lsvr-textinput:focus {
+    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); }
+.lsvr-modal-content .lsvr-textarea { height: 100px; resize: none; }
+.lsvr-modal-content .lsvr-selectbox { cursor: pointer; }
+.lsvr-sg-colorpicker { position: relative; }
+.lsvr-sg-colorpicker .lsvr-textinput { width: 150px; }
+.lsvr-sg-colorpicker .lsvr-btn { position: absolute; left: 144px; bottom: 3px; width: 28px; height: 28px; font-size: 18px; cursor: pointer; text-align: center;
+    color: #FFF; background-color: #26292c; }
+.lsvr-sg-colorpicker .lsvr-btn i { position: relative; top: 6px; }
+.lsvr-sg-fileinput { position: relative; }
+.lsvr-sg-fileinput .lsvr-btn { position: absolute; right: 28px; bottom: 3px; width: 28px; height: 28px; font-size: 18px; cursor: pointer; text-align: center;
+    color: #FFF; background-color: #26292c; }
+.lsvr-sg-fileinput .lsvr-btn i { position: relative; top: 6px; }
+.lsvr-sg-gallery { position: relative; }
+.lsvr-sg-gallery-preview { margin: 10px 0; }
+.lsvr-sg-gallery-preview img { display: inline-block; max-width: 80px; }
+.lsvr-sg-gallery .lsvr-btn { margin-top: 10px; }
+
+/* footer */
+.lsvr-sg-footer { padding: 25px; }
+
+var.lsvr-var { display: none; }
+.colorpicker { z-index: 110020; }
+
+#wp-content-media-buttons .wp-media-buttons-icon { background-repeat: no-repeat; background-position: 0 2px; }
+
+/* RTL */
+.rtl .lsvr-shorcode-generator-button i { margin-right: 0; margin-left: 6px; }
+.rtl .lsvr-modal { left: auto; right: 50%; }
+.rtl .lsvr-sg-modal { margin-left: 0; margin-right: -250px; }
+.rtl .lsvr-modal-title .lsvr-close { right: auto; left: 25px; }
+.rtl .lsvr-sg-colorpicker .lsvr-btn { left: auto; right: 144px; }
+.rtl .lsvr-sg-fileinput .lsvr-btn { right: auto; left: 28px; }

@@ -1,0 +1,5 @@
+<?php return array(
+	'name' => __( '#Front Page 2', 'lsvrtheme' ),
+	'custom_class' => 'lsvr-layout-template lsvr-layout-template-front-page-2',
+	'content' => '[vc_row][vc_column width="1/1"][lsvr_slider height="400" wpautop="yes" interval="8"][/vc_column][/vc_row][vc_row][vc_column width="1/2"][lsvr_articles category="220" icon="tp tp-man-woman" number_of_items="5" highlight_first="yes" more_btn_label="Read All Posts" title="Community"][/vc_column][vc_column width="1/2"][lsvr_articles category="217" icon="tp tp-library2" number_of_items="5" highlight_first="yes" more_btn_label="Read All Posts" title="Culture"][/vc_column][/vc_row][vc_row][vc_column width="1/2"][lsvr_articles category="213" icon="tp tp-tennis2" number_of_items="5" highlight_first="yes" more_btn_label="Read All Posts" title="Sport"][/vc_column][vc_column width="1/2"][lsvr_articles category="214" icon="tp tp-teacup" number_of_items="5" highlight_first="yes" more_btn_label="Read All Posts" title="Relax"][/vc_column][/vc_row]'
+); ?>

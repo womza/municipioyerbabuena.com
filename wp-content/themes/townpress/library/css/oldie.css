@@ -1,0 +1,4 @@
+﻿* { zoom: 1; }
+
+.header-image:after { background: url( '../img/header-gradient.png' ) 0 bottom repeat-x; }
+.footer-bg:before { background-image: url( '../img/footer-gradient.png' ); background-position: 0 0; background-repeat: repeat-x; }

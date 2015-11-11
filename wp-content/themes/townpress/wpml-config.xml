@@ -1,0 +1,22 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_options">
+			<key name="footer_text" />
+			<key name="header_login_label" />
+			<key name="page404_content" />
+        </key>
+    </admin-texts>
+	<custom-types>
+		<custom-type translate="1">lsvrdocument</custom-type>
+		<custom-type translate="1">lsvrevent</custom-type>
+		<custom-type translate="1">lsvrgallery</custom-type>
+		<custom-type translate="1">lsvrnotice</custom-type>
+		<custom-type translate="1">lsvrslide</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">lsvrdocumentcat</taxonomy>
+		<taxonomy translate="1">lsvreventcat</taxonomy>
+		<taxonomy translate="1">lsvrgallerycat</taxonomy>
+		<taxonomy translate="1">lsvrnoticecat</taxonomy>
+	</taxonomies>
+</wpml-config>

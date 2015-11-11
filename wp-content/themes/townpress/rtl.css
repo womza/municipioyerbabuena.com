@@ -1,0 +1,645 @@
+/* -----------------------------------------------------------------------------
+
+    1.) GENERAL
+
+----------------------------------------------------------------------------- */
+
+	blockquote { padding-left: 0; padding-right: 20px; border-width: 0 5px 0 0; }
+
+	/* UNORDERED LIST */
+	ul > li { padding-left: 0; padding-right: 15px; }
+	ul > li:before { left: auto; right: 0; }
+
+	/* ORDERED LIST */
+	ol ul,
+	ol ol { margin-left: 0; margin-right: 20px; }
+
+	/* TABLE */
+	table th { text-align: right; }
+
+
+/* -----------------------------------------------------------------------------
+
+    3.) COMPONENTS
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		ACCORDION
+	------------------------------------------------------------------------- */
+
+	.accordion-items .accordion-title { padding-left: 30px; padding-right: 0; }
+	.accordion-items .m-has-icon .accordion-title { padding-left: 0; padding-right: 30px; }
+	.accordion-items .accordion-title .ico { left: auto; right: 0; }
+	.accordion-items .accordion-title:after { right: auto; left: 5px; }
+
+	/* -------------------------------------------------------------------------
+		ALERT MESSAGES
+	------------------------------------------------------------------------- */
+
+	.c-alert-message { padding-left: 20px; padding-right: 50px; }
+	.c-alert-message .ico { left: auto; right: 20px; }
+	.c-alert-message .alert-close { right: auto; left: 10px; }
+
+	/* -------------------------------------------------------------------------
+		ARTICLE LIST
+	------------------------------------------------------------------------- */
+
+	.c-article-list .ico-shadow { left: auto; right: -20px; }
+	.c-article-list.m-has-icon .article-list-title { padding-left: 0; padding-right: 45px; }
+	.c-article-list .article-list-title .ico { left: auto; right: 0; }
+	.c-article-list .article-date .ico { top: 4px; float: right; margin-right: 0; margin-left: 5px; }
+	.c-article-list .brief-article .article-title { padding-right: 0; padding-left: 80px; }
+	.c-article-list .brief-article .article-date { right: auto; left: 0; text-align: left; }
+	.c-article-list .more-btn-holder a { padding-right: 0; padding-left: 10px; }
+
+	/* -------------------------------------------------------------------------
+		BUTTON
+	------------------------------------------------------------------------- */
+
+	.c-button.m-has-icon { padding-left: 0; padding-right: 42px; }
+	.c-button .ico { left: auto; right: 20px; }
+
+	/* -------------------------------------------------------------------------
+		DEFINITION LIST
+	------------------------------------------------------------------------- */
+
+	.c-definition-list dl > dt { float: right; }
+	.c-definition-list dl > dd { float: left; text-align: left; }
+
+	/* -------------------------------------------------------------------------
+		DIRECTORY
+	------------------------------------------------------------------------- */
+
+	.c-directory .ico-shadow { left: auto; right: -40px; }
+	.c-directory.m-has-icon .directory-title { padding-left: 0; padding-right: 45px; }
+	.c-directory .directory-title .ico { left: auto; right: 0; }
+	.c-directory .directory-menu > li { padding-right: 0; padding-left: 10px; }
+	.c-directory .sub-menu .sub-menu { margin-left: 0; margin-right: 20px; }
+	.c-directory.m-2-columns .directory-menu > li { float: right; }
+	.c-directory.m-2-columns .directory-menu > li:nth-child(2n+1) { clear: right; }
+	.c-directory.m-3-columns .directory-menu > li { float: right; }
+	.c-directory.m-3-columns .directory-menu > li:nth-child(3n+1) { clear: right; }
+	.c-directory.m-4-columns .directory-menu > li { float: right; }
+	.c-directory.m-4-columns .directory-menu > li:nth-child(4n+1) { clear: right; }
+
+	/* -------------------------------------------------------------------------
+		FEATURE
+	------------------------------------------------------------------------- */
+
+	.c-feature .feature-inner { padding-left: 0; padding-right: 50px; }
+	.c-feature .feature-icon { left: auto; right: 0; }
+
+	/* -------------------------------------------------------------------------
+		GALLERY
+	------------------------------------------------------------------------- */
+
+	.c-gallery .gallery-images > li { float: right; }
+	.c-gallery .gallery-images.m-2-columns > li:nth-child(2n+1),
+	.c-gallery .gallery-images.m-3-columns > li:nth-child(3n+1),
+	.c-gallery .gallery-images.m-4-columns > li:nth-child(4n+1),
+	.c-gallery .gallery-images.m-5-columns > li:nth-child(5n+1) { clear: right; }
+
+	/* -------------------------------------------------------------------------
+		PAGINATION
+	------------------------------------------------------------------------- */
+
+	.c-pagination,
+	.navigation.pagination { text-align: left; }
+
+	/* -------------------------------------------------------------------------
+		SEARCH FORM
+	------------------------------------------------------------------------- */
+
+	.c-search-form input { padding-left: 60px; padding-right: 15px; }
+	.c-search-form .submit-btn { right: auto; left: -1px; }
+
+	/* -------------------------------------------------------------------------
+		SLIDER
+	------------------------------------------------------------------------- */
+
+	.c-slider .owl-nav { right: auto; left: 0; }
+	.c-slider .owl-prev,
+	.c-slider .owl-next { float: right; }
+	.c-slider .owl-prev i,
+	.c-slider .owl-next i { left: auto; right: 0; }
+	.c-slider .owl-prev .fa-angle-left:before { content: '\f105'; }
+	.c-slider .owl-next .fa-angle-right:before { content: '\f104'; }
+	.c-slider .owl-prev:active:not( .m-disabled ) i { left: auto; right: -2px; }
+	.c-slider .owl-next:active:not( .m-disabled ) i { left: auto; right: 2px; }
+
+	/* -------------------------------------------------------------------------
+		TABS
+	------------------------------------------------------------------------- */
+
+	.c-tabs .tab-list > li { margin-left: 20px; margin-right: 0; }
+
+	/* -------------------------------------------------------------------------
+		TEAM MEMBER
+	------------------------------------------------------------------------- */
+
+	.c-team-member .member-portrait { left: auto; right: 0; }
+	.c-team-member .member-social li { margin-right: 0; margin-left: 5px; }
+	.c-team-member.m-has-portrait .team-member-inner { padding-left: 0; padding-right: 120px; }
+
+
+/* -----------------------------------------------------------------------------
+
+    4.) HEADER
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		HEADER BRANDING
+	------------------------------------------------------------------------- */
+
+	.header-branding { float: right; }
+
+	/* -------------------------------------------------------------------------
+		HEADER MENU
+	------------------------------------------------------------------------- */
+
+	.m-has-standard-menu .header-menu { float: left; }
+	.header-menu nav > ul > li.m-has-submenu > a { padding-right: 10px; padding-left: 12px; }
+	.header-menu nav > ul > li.m-has-submenu > a:after { right: auto; left: 0; }
+	.header-menu nav ul ul { left: auto; right: 0; }
+	.header-menu nav ul ul .m-has-submenu > a { padding-right: 0; padding-left: 20px; }
+	.header-menu nav ul ul .m-has-submenu > a:after { content: '\f104'; right: auto; left: 5px; }
+	.header-menu nav > ul > li.m-penultimate > ul,
+	.header-menu nav > ul > li.m-last > ul { right: auto; left: 0; }
+	.header-menu nav ul ul ul { left: auto; right: 100%; }
+	.header-menu nav > ul > li.m-penultimate > ul ul,
+	.header-menu nav > ul > li.m-last > ul ul { right: auto; left: 100%; }
+	.header-menu nav ul ul ul ul { right: auto; left: 100%; }
+
+	/* -------------------------------------------------------------------------
+		HEADER TOOLS
+	------------------------------------------------------------------------- */
+
+	.header-tools { right: auto; left: 0; }
+
+	/* LANGUAGE SWITCHER */
+	.header-lang-switcher { float: left; margin-left: 0; margin-right: 20px; }
+	.header-lang-switcher li { float: right; border-width: 0 1px 0 0; }
+
+	/* HEADER SEARCH */
+	.header-search { float: left; margin-left: 0; margin-right: 20px; }
+	.header-search .submit-btn { right: auto; left: 0; }
+
+	/* HEADER LOGIN */
+	.header-login { float: right; margin-left: 0; margin-right: 20px; }
+	.header-login a span { margin-left: 0; margin-right: 5px; }
+
+	/* GMAP SWITCHER */
+	.header-gmap-switcher { float: left; margin-left: 0; margin-right: 20px; }
+	.header-gmap-switcher span { margin-left: 0; margin-right: 5px; }
+
+	/* -------------------------------------------------------------------------
+		HEADER TOGGLE
+	------------------------------------------------------------------------- */
+
+	.m-has-gmap .header-toggle-holder { padding-right: 0; padding-left: 50px; }
+	.header-toggle-holder .header-gmap-switcher { right: auto; left: 0; }
+
+
+/* -----------------------------------------------------------------------------
+
+    5.) CORE
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+        PAGE HEADER
+    ------------------------------------------------------------------------- */
+
+	#page-header:after { left: auto; right: 50%; margin-left: 0; margin-right: -5px; }
+
+	/* PAGE TITLE */
+	.m-has-breadcrumbs .page-title:after { left: auto; right: 0; }
+
+	/* BREADCRUMBS */
+	.breadcrumbs > ul > li { margin-left: 0; margin-right: 5px; }
+	.breadcrumbs > ul > li:before { margin-right: 0; margin-left: 7px; }
+
+	/* -------------------------------------------------------------------------
+        ARTICLES
+    ------------------------------------------------------------------------- */
+
+	.article-page .article-footer .ico { left: auto; right: 0; }
+	.article-page .article-date { padding-left: 0; padding-right: 20px; }
+	.article-page .article-date-holder { margin-right: 0; margin-left: 10px; }
+	.article-page .article-tags { padding-left: 0; padding-right: 20px; }
+
+	.article-navigation .prev { float: right; }
+	.article-navigation .next { float: left; text-align: left; }
+	.article-navigation .m-has-thumb .prev-inner { padding-left: 0; padding-right: 60px; }
+	.article-navigation .m-has-thumb .next-inner { padding-right: 0; padding-left: 60px; }
+	.article-navigation .prev .nav-thumb { left: auto; right: 0; }
+	.article-navigation .next .nav-thumb { right: auto; left: 0; }
+
+	/* ARTICLE COMMENTS */
+	.article-comments .comment-list .comment-inner.has-portrait { padding-left: 0; padding-right: 80px; }
+	.article-comments .comment-list .comment-portrait { left: auto; right: 0; }
+	.article-comments .comment-list .comment-date { float: right; }
+	.article-comments .comment-list .comment-edit,
+	.article-comments .comment-list .comment-reply { float: left; }
+	.article-comments .comment-list .comment-date:before,
+	.article-comments .comment-list .comment-edit:before,
+	.article-comments .comment-list .comment-reply:before { margin-right: 0; margin-left: 7px; }
+	.article-comments .comment-list .comment-list { margin-left: 0; margin-right: 20px; }
+
+	/* COMMENT FORM */
+	#respond #cancel-comment-reply-link { right: auto; left: 0; }
+	#respond #cancel-comment-reply-link:before { margin-right: 0; margin-left: 5px; }
+
+	/* -------------------------------------------------------------------------
+        NOTICES
+    ------------------------------------------------------------------------- */
+
+	.notice-page .notice-footer .ico { left: auto; right: 0; }
+	.notice-page .notice-date { padding-left: 0; padding-right: 20px; }
+
+	/* -------------------------------------------------------------------------
+        DOCUMENTS
+    ------------------------------------------------------------------------- */
+
+	.document-page .document-title.m-has-icon { padding-left: 0; padding-right: 22px; }
+	.document-page .document-icon { left: auto; right: 0; }
+	.document-page .document-info ul > li { margin-right: 0; margin-left: 10px; }
+
+	/* -------------------------------------------------------------------------
+        EVENTS
+    ------------------------------------------------------------------------- */
+
+	.event-page .event-info > li { margin-left: 20px; margin-right: 0; padding-left: 0; padding-right: 25px; }
+	.event-page .event-info .ico { left: auto; right: 0; }
+
+	/* -------------------------------------------------------------------------
+        GALLERIES
+    ------------------------------------------------------------------------- */
+
+	.gallery-page .gallery-footer .ico { left: auto; right: 0; }
+	.gallery-page .gallery-date { padding-left: 0; padding-right: 20px; }
+
+
+/* -----------------------------------------------------------------------------
+
+    6.) WIDGETS
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+        LSVR DEFINITION LIST
+    ------------------------------------------------------------------------- */
+
+	.widget.lsvr-definition-list dl > dt { float: right; }
+	.widget.lsvr-definition-list dl > dd { float: left; text-align: left; }
+
+	/* -------------------------------------------------------------------------
+        LSVR LOCALE WIDGET
+    ------------------------------------------------------------------------- */
+
+	.widget.lsvr-locale-info .row-title { float: right; text-align: right; }
+	.widget.lsvr-locale-info .row-value { float: left; text-align: left; }
+	.widget.lsvr-locale-info .local-icon { right: auto; left: 60px; }
+
+	/* -------------------------------------------------------------------------
+        LSVR DOCUMENTS WIDGET
+    ------------------------------------------------------------------------- */
+
+	.widget.lsvr-documents .document-icon { left: auto; right: 0; }
+	.widget.lsvr-documents .m-has-icons .document-title { padding-left: 0; padding-right: 20px; }
+
+	/* -------------------------------------------------------------------------
+        LSVR EVENTS WIDGET
+    ------------------------------------------------------------------------- */
+
+	.widget.lsvr-events .m-has-date .event-inner { padding-left: 0; padding-right: 50px; }
+	.widget.lsvr-events .event-date { left: auto; right: 0; }
+
+	/* -------------------------------------------------------------------------
+        LSVR GALLERIES WIDGET
+    ------------------------------------------------------------------------- */
+
+	.widget.lsvr-galleries .m-has-thumb .gallery-inner { padding-left: 0; padding-right: 60px; }
+	.widget.lsvr-galleries .gallery-image { left: auto; right: 0; }
+
+    /* -------------------------------------------------------------------------
+        LSVR NOTICE, DOCUMENT, EVENT, GALLERY CATEGORIES WIDGET
+    ------------------------------------------------------------------------- */
+
+	.widget.lsvr-document-categories .children,
+	.widget.lsvr-event-categories .children,
+	.widget.lsvr-gallery-categories .children,
+	.widget.lsvr-notice-categories .children { padding-left: 0; padding-right: 20px; }
+
+	/* -------------------------------------------------------------------------
+        LSVR MAILCHIMP SUBSCRIBE
+    ------------------------------------------------------------------------- */
+
+	.widget.lsvr-mailchimp-subscribe .submit-btn { right: auto; left: 5px; }
+	.widget.lsvr-mailchimp-subscribe .submit-btn:active { right: auto; left: 2px; }
+	.widget.lsvr-mailchimp-subscribe .submit-btn .fa-chevron-right:before { content: '\f053'; }
+
+    /* -------------------------------------------------------------------------
+        CALENDAR WIDGET
+    ------------------------------------------------------------------------- */
+
+    .widget.widget_calendar caption { text-align: right; }
+	.widget.widget_calendar tfoot #prev { text-align: right; }
+	.widget.widget_calendar tfoot #next { text-align: left; }
+
+    /* -------------------------------------------------------------------------
+        CATEGORIES WIDGET
+    ------------------------------------------------------------------------- */
+
+    .widget.widget_categories ul.children { margin-left: 0; margin-right: 20px; }
+
+    /* -------------------------------------------------------------------------
+        CUSTOM MENU WIDGET
+    ------------------------------------------------------------------------- */
+
+	.widget.widget_nav_menu ul.sub-menu { margin-left: 0; margin-right: 20px; }
+
+    /* -------------------------------------------------------------------------
+        PAGES WIDGET
+    ------------------------------------------------------------------------- */
+
+    .widget.widget_pages ul.children { margin-left: 0; margin-right: 20px; }
+
+    /* -------------------------------------------------------------------------
+        bbPRESS STATISTICS WIDGET
+    ------------------------------------------------------------------------- */
+
+	.widget.widget_display_stats dl > dt { clear: right; float: right; }
+	.widget.widget_display_stats dl > dd { float: left; text-align: left; }
+
+
+/* -----------------------------------------------------------------------------
+
+    7.) SIDEBAR
+
+----------------------------------------------------------------------------- */
+
+    /* -------------------------------------------------------------------------
+        SIDE MENU
+    ------------------------------------------------------------------------- */
+
+	.side-menu nav > ul > li > a { left: auto; right: 0; }
+	.side-menu nav .m-has-submenu > a { padding-right: 0; padding-left: 20px; }
+	.side-menu nav .m-has-submenu > a:after { content: '\f104'; right: auto; left: 5px; }
+
+	/* VISIBLE SUBMENU */
+	.side-menu.m-show-submenu nav .current-menu-ancestor > ul,
+	.side-menu.m-show-submenu nav .current_page_ancestor > ul,
+	.side-menu.m-show-submenu nav .current_page_parent > ul,
+	.side-menu.m-show-submenu nav .current_page_item > ul,
+	.side-menu.m-show-submenu nav .current-menu-item > ul { margin-left: 0; margin-right: 20px;}
+
+	.side-menu.m-show-submenu nav > ul > .current-menu-ancestor > ul,
+	.side-menu.m-show-submenu nav > ul > .current_page_ancestor > ul,
+	.side-menu.m-show-submenu nav > ul > .current_page_parent > ul,
+	.side-menu.m-show-submenu nav > ul > .current_page_item > ul,
+	.side-menu.m-show-submenu nav > ul > .current-menu-item > ul { padding-left: 20px; padding-right: 30px; }
+
+    /* -------------------------------------------------------------------------
+        WIDGETS
+    ------------------------------------------------------------------------- */
+
+	.sidebar .widget-title.m-has-ico { padding-left: 0; padding-right: 50px; }
+	.sidebar .widget-ico { left: auto; right: 20px; }
+	.sidebar .show-all-btn a { padding-right: 0; padding-left: 10px; }
+	.sidebar .widget.lsvr-image .widget-title.m-has-ico,
+	.sidebar .widget.lsvr-custom-code .widget-title.m-has-ico { padding-left: 0; padding-right: 30px; }
+	.sidebar .widget.lsvr-image .widget-ico,
+	.sidebar .widget.lsvr-custom-code .widget-ico { left: auto; right: 2px; }
+
+
+/* -----------------------------------------------------------------------------
+
+    8.) FOOTER
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		BOTTOM PANEL
+	------------------------------------------------------------------------- */
+
+	#bottom-panel .m-has-ico.widget-title { padding-left: 0; padding-right: 30px; }
+	#bottom-panel .widget-ico { left: auto; right: -1px; }
+	#bottom-panel .show-all-btn a { padding-right: 0; padding-left: 10px; }
+	#bottom-panel .c-alert-message { padding-left: 20px; padding-right: 45px; }
+	#bottom-panel .c-alert-message .ico { left: auto; right: 15px; }
+
+	/* -------------------------------------------------------------------------
+		FOOTER BOTTOM
+	------------------------------------------------------------------------- */
+
+	/* FOOTER MENU */
+	.footer-menu { float: left; }
+	.footer-menu ul > li { margin-left: 0; margin-right: 14px; }
+
+	/* FOOTER TEXT */
+	.footer-text { float: right; }
+
+
+/* -----------------------------------------------------------------------------
+
+    9.) OTHER
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+        bbPRESS
+    ------------------------------------------------------------------------- */
+
+	div.bbp-template-notice { padding-left: 20px; padding-right: 50px; }
+	div.bbp-template-notice:before { left: auto; right: 20px; }
+	#bbpress-forums div.bbp-forum-content,
+	#bbpress-forums div.bbp-topic-content,
+	#bbpress-forums div.bbp-reply-content { margin-left: 0; margin-right: 140px; }
+	#bbpress-forums .bbp-topic-freshness,
+	#bbpress-forums .bbp-forum-freshness { text-align: left; }
+	#bbpress-forums div.bbp-reply-author { text-align: right; }
+	#bbp-your-profile fieldset label[for] { text-align: right; }
+	.bbp-forum-status-closed .bbp-forum-title:before { margin-right: 0; margin-left: 3px; }
+
+	/* -------------------------------------------------------------------------
+        CONTACT FORM 7
+    ------------------------------------------------------------------------- */
+
+	.wpcf7-form .ajax-loader { margin-left: 0; margin-right: 10px; }
+	.wpcf7-form-control-wrap .wpcf7-not-valid-tip { right: auto; left: 0; }
+
+	/* -------------------------------------------------------------------------
+        MAGNIFIC POPUP
+    ------------------------------------------------------------------------- */
+
+	.mfp-arrow-left:before { content: "\f105"; }
+	.mfp-arrow-right:before { content: "\f104"; }
+	.mfp-arrow-left { left: auto; right: 10px; }
+	.mfp-arrow-left:active { left: auto; right: 5px; }
+	.mfp-arrow-right { right: auto; left: 10px; }
+	.mfp-arrow-right:active { right: auto; left: 5px; }
+
+	/* -------------------------------------------------------------------------
+        STYLE SWITCHER
+    ------------------------------------------------------------------------- */
+
+	#style-switcher { left: auto; right: -210px; }
+	#style-switcher.m-active { left: auto; right: 0; }
+	.style-switcher-toggle { right: auto; left: -50px; }
+	.style-switcher-content .skin-list > li { margin-right: 0; margin-left: 6px; }
+	.style-switcher-content .skin-list > li:last-child { margin-left: 0; }
+
+
+/* -----------------------------------------------------------------------------
+
+    10.) RESPONSIVE
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+        EXTRA LARGE DEVICES
+    ------------------------------------------------------------------------- */
+
+	@media ( max-width: 1299px ) {
+
+		/* COMPONENTS */
+		.c-directory.m-4-columns .directory-menu > li:nth-child(4n+1) { clear: none; }
+		.c-directory.m-4-columns .directory-menu > li:nth-child(2n+1) { clear: right; }
+
+	}
+
+    /* -------------------------------------------------------------------------
+        LARGE DEVICES
+    ------------------------------------------------------------------------- */
+
+    @media ( max-width: 1199px ) {
+
+		/* COMPONENTS */
+		.c-directory.m-3-columns .directory-menu > li:nth-child(3n+1) { clear: none; }
+		.c-directory.m-3-columns .directory-menu > li:nth-child(2n+1) { clear: right; }
+
+		/* WIDGETS */
+		.widget.lsvr-locale-info .local-icon { right: auto; left: 50px; }
+
+	}
+
+    /* -------------------------------------------------------------------------
+        MEDIUM DEVICES
+    ------------------------------------------------------------------------- */
+
+    @media ( max-width: 991px ) {
+
+		/* COMPONENTS */
+		.c-container { padding-left: 20px; padding-right: 20px; }
+		.c-directory.m-3-columns .directory-menu > li:nth-child(2n+1),
+		.c-directory.m-4-columns .directory-menu > li:nth-child(2n+1) { clear: none; }
+		.c-directory.m-3-columns .directory-menu > li:nth-child(3n+1),
+		.c-directory.m-4-columns .directory-menu > li:nth-child(4n+1) { clear: right; }
+
+		/* HEADER */
+		.header-login,
+		.header-search { margin-right: 0; }
+		.header-branding,
+		.header-search,
+		.header-login,
+		.header-lang-switcher { float: none; }
+		.m-has-standard-menu .header-menu { float: none; }
+		.header-menu nav > ul > li > a { padding: 7px 0; }
+		.header-menu nav > ul > li.m-has-submenu > a,
+		.header-menu nav .m-has-submenu > a { padding-right: 0; padding-left: 40px; }
+		.header-menu nav .submenu-toggle { right: auto; left: 0; }
+		.header-menu nav ul ul ul ul,
+		.header-menu nav ul ul ul,
+		.header-menu nav ul ul { left: auto; right: auto; top: auto; }
+		.header-menu nav > ul > li.m-penultimate > ul ul,
+		.header-menu nav > ul > li.m-last > ul ul { right: auto; left: auto; }
+
+		/* WIDGETS */
+		.widget.lsvr-locale-info .local-icon { right: auto; left: 60px; }
+		.bbp-login-form .bbp-submit-wrapper,
+		.bbp-login-form .bbp-login-links { text-align: right; }
+
+	}
+
+	/* -------------------------------------------------------------------------
+        SMALL DEVICES
+    ------------------------------------------------------------------------- */
+
+    @media ( max-width: 767px ) {
+
+		/* COMPONENTS */
+		.c-directory.m-3-columns .directory-menu > li:nth-child(3n+1),
+		.c-directory.m-4-columns .directory-menu > li:nth-child(4n+1) { clear: none; }
+		.c-directory.m-3-columns .directory-menu > li:nth-child(2n+1),
+		.c-directory.m-4-columns .directory-menu > li:nth-child(2n+1) { clear: right; }
+
+		/* FOOTER */
+		.footer-menu,
+		.footer-text { float: none; text-align: center; }
+
+		/* bbPRESS */
+		#bbpress-forums li.bbp-forum-info,
+		#bbpress-forums li.bbp-topic-title { float: none; clear: both; }
+		#bbpress-forums li.bbp-forum-topic-count,
+		#bbpress-forums li.bbp-topic-voice-count,
+		#bbpress-forums li.bbp-forum-reply-count,
+		#bbpress-forums li.bbp-topic-reply-count { text-align: right; }
+		#bbpress-forums li.bbp-body ul li.bbp-forum-freshness,
+		#bbpress-forums li.bbp-body ul li.bbp-topic-freshness { float: none; clear: both; text-align: right; }
+
+	}
+
+	/* -------------------------------------------------------------------------
+        EXTRA SMALL DEVICES
+    ------------------------------------------------------------------------- */
+
+	@media ( max-width: 480px ) {
+
+		/* COMPONENTS */
+		.c-container { padding-left: 15px; padding-right: 15px; }
+		.c-content-box { padding-left: 20px; padding-right: 20px; }
+		.c-article-list .article-list-inner { padding-left: 20px; padding-right: 20px; }
+		.c-article-list .article-list-content { margin-left: -20px; margin-right: -20px; }
+		.c-article-list .article-core { padding-left: 20px; padding-right: 20px; }
+		.c-article-list .brief-article .article-title { padding: 0; }
+		.c-article-list .brief-article .article-date { left: auto; text-align: right; }
+		.c-article-list .brief-article,
+		.c-article-list .more-btn-holder { margin-left: 20px; margin-right: 20px; }
+		.c-definition-list dl > dt { float: none; clear: both; }
+		.c-definition-list dl > dd { float: none; margin: 0; padding: 0; text-align: right; }
+		.c-directory.m-2-columns .directory-menu > li,
+		.c-directory.m-3-columns .directory-menu > li,
+		.c-directory.m-4-columns .directory-menu > li { float: none; }
+		.c-gallery .gallery-images.m-3-columns > li:nth-child(3n+1),
+		.c-gallery .gallery-images.m-4-columns > li:nth-child(4n+1),
+		.c-gallery .gallery-images.m-5-columns > li:nth-child(5n+1) { clear: none; }
+		.c-gallery .gallery-images.m-3-columns > li:nth-child(2n+1),
+		.c-gallery .gallery-images.m-4-columns > li:nth-child(2n+1),
+		.c-gallery .gallery-images.m-5-columns > li:nth-child(2n+1) { clear: right; }
+
+		.c-slider .slide-content { padding-left: 20px; padding-right: 20px; }
+		.c-team-member.m-has-portrait .team-member-inner { padding-right: 0; }
+
+		/* CORE */
+		#page-header { padding-left: 20px; padding-right: 20px; }
+
+		/* WIDGETS */
+		.widget.lsvr-locale-info .row-title { float: none; text-align: center; }
+		.widget.lsvr-locale-info .row-value { float: none; text-align: center; }
+		.widget.lsvr-locale-info .local-icon { left: auto; }
+		.widget.lsvr-definition-list dl > dt,
+		.widget.lsvr-definition-list dl > dd { float: none; text-align: right; }
+
+		/* OTHER */
+		.wpcf7 { padding-left: 20px; padding-right: 20px; }
+
+		/* bbPRESS */
+		span.bbp-reply-post-date { float: right; }
+		#bbpress-forums .bbp-body div.bbp-reply-author { padding-left: 0; padding-right: 80px; text-align: right; }
+		#bbpress-forums div.bbp-reply-author img.avatar { left: auto; right: 0; }
+		#bbpress-forums #bbp-user-body { margin: 0; }
+
+	}
