@@ -173,7 +173,10 @@ else : ?>
 					<!-- ARTICLE CONTENT : end -->
 				<?php elseif ( $post->post_content ) : ?>
 					<!-- ARTICLE CONTENT : begin -->
-					<div class="article-content-inner"><?php the_content(); ?></div>
+					<div class="article-content-inner">
+                        <?php echo wp_trim_words( do_shortcode($post->post_content), 55, '...' ); ?>
+                        <a href="<?php the_permalink(); ?>">[Leer m&aacute;s]</a>
+                    </div>
 					<!-- ARTICLE CONTENT : end -->
 				<?php endif; ?>
 				</div>
