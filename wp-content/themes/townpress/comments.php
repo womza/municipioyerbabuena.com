@@ -87,6 +87,14 @@
 
     }
 
+    // remove legend from comment form
+    if (isset($args['comment_notes_after']))
+        $args['comment_notes_after'] = '</div>';
+
+    // remove website field
+    if (isset($args['fields']['url']))
+        unset($args['fields']['url']);
+
     comment_form( $args );
 
     ?>
