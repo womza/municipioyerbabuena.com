@@ -33,3 +33,6 @@
 @media (min-width: 992px) and (min-width: 1010px) { .header-branding { left: 26px; } }
 @media (min-width: 1011px) and (min-width: 1120px) { .header-branding { left: 37px; } }
 @media (min-width: 1121px) { .header-branding { left: 72px; } }
+
+/* remove tags */
+.form-allowed-tags { display: none; }

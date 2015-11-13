@@ -89,7 +89,7 @@
 
     // remove legend from comment form
     if (isset($args['comment_notes_after']))
-        $args['comment_notes_after'] = '</div>';
+        //$args['comment_notes_after'] = '</div>';
 
     // remove website field
     if (isset($args['fields']['url']))
