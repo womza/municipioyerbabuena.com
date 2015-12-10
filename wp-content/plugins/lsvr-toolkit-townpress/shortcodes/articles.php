@@ -179,7 +179,7 @@ if ( ! lsvr_shortcode_exists( 'lsvr_articles' ) && ! function_exists( 'lsvr_arti
 				$loop->the_post();
 
 				// FIRST POST
-				if ( $highlight_first && $index === 0 ) {
+				if ( $highlight_first && $index < 2 ) { // $index === 0 <- only show 1 article
 
 					if ( has_post_thumbnail() ) {
 						$output .= '<article class="featured-article m-has-thumb">';
